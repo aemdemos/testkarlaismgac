@@ -8,7 +8,7 @@
     "delay": 0,
     "screenshot": false
   },
-  "autoDetect": true,
+  "autoDetect": false,
   "template": {
     "raw": "/html[1]/body[1]/div[1]/header[1]\n  - /html[1]/body[1]/div[1]/header[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/header[1]/div[2]/section[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/main[1]/div[1]/section[1]\n  /html[1]/body[1]/div[1]/main[1]/div[1]/section[2]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]\n  /html[1]/body[1]/div[1]/main[1]/div[1]/section[3]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]\n  /html[1]/body[1]/div[1]/main[1]/div[1]/section[4]\n  /html[1]/body[1]/div[1]/main[1]/div[1]/section[5]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[5]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/main[1]/div[1]/section[5]/div[1]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/footer[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/section[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/section[1]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/section[1]/div[1]/div[2]/div[1]\n  - /html[1]/body[1]/div[1]/footer[1]/div[1]/section[1]/div[1]/div[2]/div[2]",
     "hash": -260938262
