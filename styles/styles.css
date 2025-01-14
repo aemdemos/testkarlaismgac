@@ -17,32 +17,32 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --body-font-family: "effra", "Helvetica", "Arial", "sans-serif";
-  --heading-font-family: "effra", "Helvetica", "Arial", "sans-serif";
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  --body-font-family: "effra", "effra Fallback", "Helvetica", "Arial", "sans-serif";
+  --heading-font-family: "effra", "effra Fallback", "Helvetica", "Arial", "sans-serif";
+  --body-font-size-m: 14px;
+  --body-font-size-s: 11.62px;
+  --body-font-size-xs: 9.38px;
+  --heading-font-size-xxl: 48px;
+  --heading-font-size-xl: 48px;
+  --heading-font-size-l: 30px;
+  --heading-font-size-m: 14px;
+  --heading-font-size-s: 11.62px;
+  --heading-font-size-xs: 9.38px;
   --nav-height: 64px;
 }
 
 /* fallback fonts */
 @media (width>=900px) {
   :root {
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --body-font-size-m: 14px;
+    --body-font-size-s: 11.62px;
+    --body-font-size-xs: 9.38px;
+    --heading-font-size-xxl: 48px;
+    --heading-font-size-xl: 48px;
+    --heading-font-size-l: 30px;
+    --heading-font-size-m: 14px;
+    --heading-font-size-s: 11.62px;
+    --heading-font-size-xs: 9.38px;
   }
 }
 
@@ -228,4 +228,48 @@ main .section.light, main .section.highlight {
 
 .section.hidden {
   display: none;
+}
+
+@font-face {
+  font-family:"effra Fallback";
+  font-style:normal;
+  font-weight:500;
+  src:local("Arial");
+  ascent-override:94.63%;
+  descent-override:25.73%;
+  line-gap-override:0.00%;
+  size-adjust:98.70%;
+}
+
+@font-face {
+  font-family:"effra Fallback";
+  font-style:normal;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:96.64%;
+  descent-override:26.28%;
+  line-gap-override:0.00%;
+  size-adjust:96.65%;
+}
+
+@font-face {
+  font-family:"effra Fallback";
+  font-style:normal;
+  font-weight:300;
+  src:local("Arial");
+  ascent-override:99.90%;
+  descent-override:27.17%;
+  line-gap-override:0.00%;
+  size-adjust:93.50%;
+}
+
+@font-face {
+  font-family:"effra Fallback";
+  font-style:normal;
+  font-weight:700;
+  src:local("Arial Bold");
+  ascent-override:100.59%;
+  descent-override:27.35%;
+  line-gap-override:0.00%;
+  size-adjust:92.85%;
 }
